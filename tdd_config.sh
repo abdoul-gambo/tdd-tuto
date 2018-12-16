@@ -69,6 +69,23 @@ git add .
 # check git status
 git status
 
+# add some other files to goiignore
+git rm -r --cached superlist/__pycache__
+echo __pycache__ >> .gitignore
+echo *.pyc >> .gitignore
+echo geckodriver.exe >> .gitignore
+echo tdd_config.sh >> .gitignore
+
+# Add files
+git add .gitignore
+
+# set git config
+git config --global user.email "agambo@velvetconsulting.com"
+git config --global user.name "agambov"
+  
+# commit
+git commit -m "initial commit"
+
 
 
 
