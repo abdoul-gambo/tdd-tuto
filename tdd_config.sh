@@ -84,7 +84,7 @@ git config --global user.email "agambo@velvetconsulting.com"
 git config --global user.name "abdoul-gambo"
   
 # commit
-git commit -m "initial commit"
+git commit -m "initial commit 2"
 
 git remote add origin https://github.com/abdoul-gambo/tdd-tuto.git
 git push -u origin master
