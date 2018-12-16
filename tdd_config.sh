@@ -81,11 +81,13 @@ git add .gitignore
 
 # set git config
 git config --global user.email "agambo@velvetconsulting.com"
-git config --global user.name "agambov"
+git config --global user.name "abdoul-gambo"
   
 # commit
 git commit -m "initial commit"
 
+git remote add origin https://github.com/abdoul-gambo/tdd-tuto.git
+git push -u origin master
 
 
 
