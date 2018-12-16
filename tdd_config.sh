@@ -89,5 +89,10 @@ git commit -m "initial commit"
 git remote add origin https://github.com/abdoul-gambo/tdd-tuto.git
 git push -u origin master
 
+# create new app called lists
+python manage.py startapp lits
+
+
+
 
 
